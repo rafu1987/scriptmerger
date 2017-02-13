@@ -2071,7 +2071,7 @@ class JSTokenizer
 
 	public function newSyntaxError($m)
 	{
-		return new Exception('Parse error: ' . $m . ' in file \'' . $this->filename . '\' on line ' . $this->lineno);
+		//return new Exception('Parse error: ' . $m . ' in file \'' . $this->filename . '\' on line ' . $this->lineno);
 	}
 }
 
